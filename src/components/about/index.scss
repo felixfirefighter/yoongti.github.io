@@ -1,0 +1,13 @@
+.about {
+  background-color: var(--white-color);
+  color: var(--dark-gray-color);
+  padding: 5rem;
+  
+  .skills {
+    display: flex;
+
+    ul {
+      padding-right: 5rem;
+    }
+  }
+}

@@ -1,0 +1,33 @@
+@import "./style/helper.scss";
+
+:root {
+  --primary-color: #7F7FD5;
+  --light-color: #f2f2fb;
+  --white-color: #fff;
+  --darker-color: #2a2a80;
+  --dark-color: #5959c8;
+  --gray-color: #aaa;
+  --dark-gray-color: #777;
+  --black-color: #111;
+}
+
+html, body {
+  margin: 0;
+  line-height: 1.5;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+p {
+  line-height: 1.75;
+}
+
+.list-primary {
+  padding: 1.2rem;
+  margin: 0;
+  list-style: url('./svg/triangle.svg');
+}

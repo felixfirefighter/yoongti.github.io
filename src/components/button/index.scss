@@ -1,0 +1,13 @@
+.button {
+  cursor: pointer;
+  border: 2px solid var(--primary-color);
+  padding: 1rem 2rem;
+  display: inline-block;
+  border-radius: 8px;
+  transition: .3s all;
+
+  &:hover {
+    background-color: var(--primary-color);
+    color: var(--light-color);
+  }
+}

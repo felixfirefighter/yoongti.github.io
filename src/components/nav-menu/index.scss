@@ -1,0 +1,63 @@
+.nav-menu {
+  margin-bottom: 5rem;
+  cursor: pointer;
+
+  .nav-icon {
+    display: inline-block;
+    position: relative;
+    width: 50px;
+    height: 5px;
+    background-color: var(--primary-color);
+    transition-property: all;
+    transition-duration: 0.3s;
+    z-index: 100;
+
+    &:before,
+    &:after {
+      content: '';
+      display: block;
+      width: 50px;
+      height: 5px;
+      position: absolute;
+      background: var(--primary-color);
+      transition-property: margin, transform;
+      transition-duration: 0.3s;
+    }
+
+    &:before {
+      margin-top: -14px;
+    }
+
+    &:after {
+      margin-top: 14px;
+    }
+
+    &.nav-active {
+      width: 0;
+
+      &:before {
+        margin-top: 0;
+        transform: rotate(45deg);
+      }
+
+      &:after {
+        margin-top: 0;
+        transform: rotate(-45deg);
+      }
+    }
+  }
+}
+
+.nav-menu-list {
+  background: var(--white-color);
+  position: absolute;
+  width: 0;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transition: .5s all;
+
+  &.nav-active {
+    width: 90%;
+  }
+}
