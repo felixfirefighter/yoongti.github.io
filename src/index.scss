@@ -1,7 +1,7 @@
-@import "./style/helper.scss";
+@import './style/helper.scss';
 
 :root {
-  --primary-color: #7F7FD5;
+  --primary-color: #7f7fd5;
   --light-color: #f2f2fb;
   --white-color: #fff;
   --darker-color: #2a2a80;
@@ -11,14 +11,21 @@
   --black-color: #111;
 }
 
-html, body {
-  margin: 0;
+html,
+body {
+  margin: 0 auto;
   line-height: 1.5;
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   margin: 0;
 }
 

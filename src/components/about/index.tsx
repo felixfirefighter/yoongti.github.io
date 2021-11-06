@@ -4,9 +4,9 @@ import './index.scss';
 const About = () => {
   return (
     <div className="about">
-      <div className="font-size-lg mb-2 text-black">About Me</div>
+      <div className="font-size-xl mb-2 text-black">About Me</div>
       <p className="mb-1">
-        I enjoy working with the design team and product owner to build an
+        I enjoy working with the design team and product owner to build
         exceptional, user experience focused products. I am also a blockchain
         enthusiast who constantly explores the knowledge/technologies that
         evolve in the industry.

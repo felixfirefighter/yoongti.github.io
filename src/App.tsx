@@ -1,9 +1,9 @@
-import React from 'react';
 import Introduction from './components/introduction'
 import './app.scss';
 import HeaderSection from './components/header-section';
 import About from './components/about';
 import Work from './components/work';
+import Divider from './components/divider';
 
 const App = () => {
   return (
@@ -14,7 +14,9 @@ const App = () => {
       <div className="right-section">
         <HeaderSection />
         <About />
+        <Divider />
         <Work />
+
       </div>
     </div>
   );
