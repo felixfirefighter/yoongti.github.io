@@ -1,0 +1,22 @@
+.work-item {
+
+  .timeline {
+    margin-right: 1rem;
+
+    .dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      border: 2px solid var(--primary-color);
+      margin-top: 10px;
+    }
+  
+    .line {
+      height: calc(100% - 1rem);
+      border-right: 1px dashed var(--primary-color);
+      margin-right: 7px;
+    }
+  }
+
+  
+}

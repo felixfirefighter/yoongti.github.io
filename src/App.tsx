@@ -16,7 +16,7 @@ const App = () => {
         <About />
         <Divider />
         <Work />
-
+        
       </div>
     </div>
   );

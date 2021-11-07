@@ -4,15 +4,15 @@ import './index.scss';
 const About = () => {
   return (
     <div className="about">
-      <div className="font-size-xl mb-2 text-black">About Me</div>
+      <h2 className="font-size-xl mb-2 text-black">About Me</h2>
       <p className="mb-1">
-        I enjoy working with the design team and product owner to build
-        exceptional, user experience focused products. I am also a blockchain
-        enthusiast who constantly explores the knowledge/technologies that
-        evolve in the industry.
+        I enjoy working with design team and product owner to build exceptional,
+        user-centered products. I am also a blockchain enthusiast who constantly
+        explores the knowledge/technologies that evolve in the industry.
       </p>
       <p className="mb-1">
-        I've had the opportunity to work at{' '}
+        I've had the opportunity to work in US, Malaysia, Singapore. I've had
+        worked at{' '}
         <a
           className="text-link"
           href="https://www.phonespeak.com/home"
@@ -42,15 +42,17 @@ const About = () => {
         </a>{' '}
         to increase our platform's user growth.
       </p>
-      <p className='mb-1'>
-        When I have the time, I write articles to post them on <a
+      <p className="mb-1">
+        When I have the time, I write articles to post them on{' '}
+        <a
           className="text-link"
           href="https://leeyoongti.medium.com/"
           target="_blank"
           rel="noreferrer"
         >
           Medium
-        </a>. 
+        </a>
+        .
       </p>
       <p>Here are a few technologies that I've been using recently:</p>
 

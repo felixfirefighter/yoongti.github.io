@@ -7,6 +7,10 @@
   color: var(--dark-color);
 }
 
+.text-darker {
+  color: var(--darker-color);
+}
+
 .text-black {
   color: var(--black-color);
 }
@@ -76,4 +80,14 @@
 
 .justify-content-between {
   justify-content: space-between;
+}
+
+.list-primary {
+  padding: 1.2rem;
+  margin: 0;
+  list-style: url('../svg/triangle.svg');
+
+  li {
+    margin-bottom: .5rem;
+  }
 }
