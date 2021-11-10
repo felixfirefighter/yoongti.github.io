@@ -1,4 +1,4 @@
-import { IWorkItem } from '../../data/work-items';
+import { IWorkItem } from '../../data/work';
 import './index.scss';
 
 const WorkItem: React.FC<IWorkItem> = ({ title, company, time, detailList }) => {

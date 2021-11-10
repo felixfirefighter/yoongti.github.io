@@ -1,13 +1,22 @@
 .about {
   background-color: var(--white-color);
   color: var(--dark-gray-color);
-  padding: 5rem;
-  
+
   .skills {
     display: flex;
 
     ul {
       padding-right: 5rem;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .about {
+    .skills {
+      ul {
+        padding-right: 2.5rem;
+      }
     }
   }
 }

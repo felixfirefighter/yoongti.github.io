@@ -6,6 +6,7 @@
   --white-color: #fff;
   --darker-color: #2a2a80;
   --dark-color: #5959c8;
+  --light-gray-color: #fcfcfc;
   --gray-color: #aaa;
   --dark-gray-color: #777;
   --black-color: #111;
@@ -31,4 +32,18 @@ p {
 
 p {
   line-height: 1.75;
+}
+
+.section {
+  padding: 5rem;
+}
+
+@media(max-width: 1024px) {
+  html, body {
+    font-size: 14px;
+  }
+
+  .section {
+    padding: 2.5rem;
+  }
 }

@@ -1,4 +1,6 @@
 .app {
+  position: relative;
+
   .left-section {
     height: 100vh;
     position: fixed;
@@ -9,5 +11,21 @@
   .right-section {
     width: 50%;
     float: right;
+  }
+}
+
+@media (max-width: 1024px) {
+  .app {
+    .left-section {
+      width: 100%;
+      float:none;
+      position: relative;
+      height: auto;
+    }
+
+    .right-section {
+      width: 100%;
+      float: none;
+    }
   }
 }

@@ -3,8 +3,8 @@ import './index.scss';
 
 const About = () => {
   return (
-    <div className="about">
-      <h2 className="font-size-xl mb-2 text-black">About Me</h2>
+    <div className="about section" id="about">
+      <h2 className="font-size-xl mb-2 text-primary">About Me</h2>
       <p className="mb-1">
         I enjoy working with design team and product owner to build exceptional,
         user-centered products. I am also a blockchain enthusiast who constantly
