@@ -10,7 +10,7 @@ const Work = () => {
       <h2 className="font-size-xl mb-2 text-primary">Where I've Worked</h2>
       <div className="work-timeline">
         {WORK_ITEMS.map((item) => {
-          return <WorkItem {...item}></WorkItem>
+          return <WorkItem {...item} key={item.title}></WorkItem>
         })}
       </div>
     </div>
